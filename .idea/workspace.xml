@@ -16,6 +16,7 @@
     <SUITE FILE_PATH="coverage/python-playground$1_variables.coverage" NAME="1_variables Coverage Results" MODIFIED="1472659013363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.idea" />
     <SUITE FILE_PATH="coverage/python-playground$2_lists.coverage" NAME="2_lists Coverage Results" MODIFIED="1472722284290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python-playground$3_if_statements.coverage" NAME="3_if_statements Coverage Results" MODIFIED="1472728336982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python-playground$4_lottery_app.coverage" NAME="4_lottery_app Coverage Results" MODIFIED="1472741800923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -26,11 +27,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="3_if_statements.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="3_if_statements.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/3_if_statements.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
               <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="4_lottery_app.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/4_lottery_app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -51,6 +62,7 @@
         <option value="$PROJECT_DIR$/.idea/1_variables.py" />
         <option value="$PROJECT_DIR$/2_lists.py" />
         <option value="$PROJECT_DIR$/3_if_statements.py" />
+        <option value="$PROJECT_DIR$/4_lottery_app.py" />
       </list>
     </option>
   </component>
@@ -121,7 +133,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
-  <component name="RunManager" selected="Python.3_if_statements">
+  <component name="RunManager" selected="Python.4_lottery_app">
     <configuration default="false" name="1_variables" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -172,6 +184,24 @@
       <module name="python-playground" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_if_statements.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="4_lottery_app" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python-playground" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4_lottery_app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -378,16 +408,18 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.1_variables" />
       <item index="1" class="java.lang.String" itemvalue="Python.2_lists" />
       <item index="2" class="java.lang.String" itemvalue="Python.3_if_statements" />
+      <item index="3" class="java.lang.String" itemvalue="Python.4_lottery_app" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.3_if_statements" />
-        <item index="1" class="java.lang.String" itemvalue="Python.2_lists" />
-        <item index="2" class="java.lang.String" itemvalue="Python.1_variables" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.4_lottery_app" />
+        <item index="1" class="java.lang.String" itemvalue="Python.3_if_statements" />
+        <item index="2" class="java.lang.String" itemvalue="Python.2_lists" />
+        <item index="3" class="java.lang.String" itemvalue="Python.1_variables" />
       </list>
     </recent_temporary>
   </component>
@@ -472,6 +504,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4_lottery_app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding />
         </state>
       </provider>
